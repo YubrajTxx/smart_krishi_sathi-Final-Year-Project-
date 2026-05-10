@@ -1,0 +1,357 @@
+/* Profile Page Refined Styles */
+
+.profile-container {
+    padding: 3rem 0;
+}
+
+.profile-card {
+    overflow: hidden;
+    padding: 0;
+    border: none;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+    border-radius: 24px !important;
+    background: white;
+}
+
+.profile-banner {
+    height: 250px;
+    position: relative;
+    border-radius: 24px 24px 0 0;
+}
+
+.banner-change-btn {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    color: var(--primary);
+    cursor: pointer;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+.banner-change-btn:hover {
+    background: white;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.profile-picture-container {
+    position: absolute;
+    bottom: -80px;
+    left: 4rem;
+    border: 8px solid white;
+    border-radius: 50%;
+    background: #f8fafc;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    z-index: 20;
+}
+
+.profile-picture {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.camera-btn {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background: var(--primary);
+    border: 4px solid white;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.camera-btn:hover {
+    transform: scale(1.1);
+    background: var(--primary-light);
+}
+
+.profile-content {
+    padding: 7rem 4rem 4rem;
+}
+
+.profile-info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 4rem;
+    border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 4rem;
+}
+
+.profile-name {
+    font-size: 3.5rem;
+    margin: 0;
+    font-weight: 800;
+    color: #1e293b;
+    letter-spacing: -1.5px;
+}
+
+.profile-location {
+    color: #64748b;
+    font-size: 1.25rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 0.5rem;
+}
+
+.profile-actions {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.25rem;
+    flex-wrap: wrap;
+}
+
+.language-card {
+    padding: 2.5rem;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 20px !important;
+    width: 350px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* Improved for mobile scaling */
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.identity-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 0;
+}
+
+.identity-label {
+    color: #64748b;
+    font-weight: 500;
+}
+
+.identity-value {
+    font-weight: 600;
+    color: #1e293b;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.identity-value svg {
+    color: var(--primary);
+    opacity: 0.6;
+    margin-right: 8px;
+}
+
+.membership-tag {
+    font-weight: 700;
+    color: #B8860B !important;
+    background: #FEF3C7;
+    padding: 4px 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+}
+
+/* Modal Standardized Styles */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(15, 23, 42, 0.75);
+    backdrop-filter: blur(8px);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    overflow-y: auto;
+    /* Enable scrolling on the overlay for long modals */
+}
+
+.modal-content-box {
+    background: white;
+    border-radius: 28px;
+    padding: 3rem;
+    max-width: 550px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.3);
+    margin: auto;
+    /* Center when content is shorter than viewport */
+}
+
+.security-btn {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.security-btn:hover {
+    transform: translateX(8px);
+    background: #f1f5f9 !important;
+    border-color: var(--primary) !important;
+    color: var(--primary) !important;
+}
+
+.security-btn:hover svg {
+    transform: scale(1.1);
+    color: var(--primary);
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 1024px) {
+    .profile-content {
+        padding: 7rem 2.5rem 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        padding: 0;
+        /* Maximize usable space */
+    }
+
+    .profile-card {
+        margin: 0;
+        border-radius: 0 !important;
+        box-shadow: none;
+    }
+
+    .profile-banner {
+        height: 180px;
+        border-radius: 0;
+    }
+
+    .profile-picture-container {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -70px;
+        border-width: 6px;
+    }
+
+    .profile-picture {
+        width: 140px;
+        height: 140px;
+    }
+
+    .profile-content {
+        padding: 6rem 1rem 3rem;
+        /* Reduced horizontal padding */
+    }
+
+    .profile-info-section {
+        flex-direction: column;
+        gap: 2.5rem;
+        padding-bottom: 3rem;
+        text-align: center;
+    }
+
+    .grid {
+        grid-template-columns: 1fr !important;
+        /* Stack columns on mobile */
+        gap: 1.5rem;
+        margin-top: 2.5rem;
+    }
+
+    .profile-name {
+        font-size: 2.25rem;
+        width: 100%;
+    }
+
+    .profile-location {
+        font-size: 1rem;
+        justify-content: center;
+    }
+
+    .profile-actions {
+        justify-content: center;
+        gap: 0.75rem;
+    }
+
+    .language-card {
+        padding: 2.5rem;
+        width: 100%;
+    }
+
+    .modal-content-box {
+        padding: 2rem 1.25rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile-content {
+        padding: 5rem 0.75rem 3rem;
+    }
+
+    .profile-name {
+        font-size: 1.75rem;
+    }
+
+    .profile-actions {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.75rem;
+    }
+
+    .profile-actions button {
+        width: 100% !important;
+    }
+
+    .identity-item {
+        flex-direction: row !important;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.25rem;
+        padding: 0.75rem 0;
+    }
+
+    .identity-label {
+        font-size: 0.75rem !important;
+        white-space: nowrap;
+    }
+
+    .identity-value {
+        font-size: 0.75rem !important;
+        text-align: right;
+        flex: 1;
+        min-width: 0;
+        justify-content: flex-end;
+    }
+
+    .membership-tag {
+        font-size: 0.7rem !important;
+        padding: 2px 8px;
+    }
+
+    .modal-content-box {
+        padding: 1.5rem 1rem;
+        border-radius: 24px;
+    }
+
+    .language-card .section-content {
+        padding: 0;
+    }
+}

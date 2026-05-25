@@ -22,7 +22,7 @@
 - **Activity Tracker:** Log daily farming activities, plan tasks, and monitor progress throughout the seasonal cycle.
 - **Agricultural Library:** Access a curated collection of articles, videos, and guides on modern farming practices.
 - **Live Weather Updates:** Real time weather data and forecasts tailored to your location.
-- **Interactive Map:** GIS based visualization for farming data and location-specific insights.
+- **Interactive Map:** GIS based visualization for farming data and location specific insights.
 - **🇳🇵 Bilingual Support:** Fully accessible in both **English** and **Nepali**.
 
 ---

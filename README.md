@@ -109,5 +109,3 @@ npm run dev
 This project is developed as part of a **Final Year Project (FYP)**. All rights reserved.
 
 ---
-
-_Developed with ❤️ for the farming community._

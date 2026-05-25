@@ -1,4 +1,4 @@
-# 🌱 Smart Krishi Sathi - Digital Farming Assistant
+# Smart Krishi Sathi - Digital Farming Assistant
 
 [![React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react&logoColor=white)](https://reactjs.org/)
 [![Django](https://img.shields.io/badge/Backend-Django-092E20?logo=django&logoColor=white)](https://www.djangoproject.com/)
@@ -8,7 +8,7 @@
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 |                    Landing Page                    |           Farming Log & Activity Tracker           |
 | :------------------------------------------------: | :------------------------------------------------: |
@@ -16,18 +16,18 @@
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-- **🤖 AI-Powered Crop Prediction:** Get data-driven crop recommendations based on soil (NPK) and environmental parameters.
-- **📅 Activity Tracker:** Log daily farming activities, plan tasks, and monitor progress throughout the seasonal cycle.
-- **📚 Agricultural Library:** Access a curated collection of articles, videos, and guides on modern farming practices.
-- **🌦️ Live Weather Updates:** Real-time weather data and forecasts tailored to your location.
-- **🗺️ Interactive Map:** GIS-based visualization for farming data and location-specific insights.
+- **AI Powered Crop Prediction:** Get data-driven crop recommendations based on soil (NPK) and environmental parameters.
+- **Activity Tracker:** Log daily farming activities, plan tasks, and monitor progress throughout the seasonal cycle.
+- **Agricultural Library:** Access a curated collection of articles, videos, and guides on modern farming practices.
+- **Live Weather Updates:** Real-time weather data and forecasts tailored to your location.
+- **Interactive Map:** GIS-based visualization for farming data and location-specific insights.
 - **🇳🇵 Bilingual Support:** Fully accessible in both **English** and **Nepali**.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -46,7 +46,7 @@
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -82,7 +82,7 @@ npm run dev
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── backend/            # Django API & ML Models
@@ -99,12 +99,12 @@ npm run dev
 
 ---
 
-## 🛡️ Security & Access
+## Security & Access
 
 - **Public:** Home, Weather, and Library pages are open to all.
 - **Private:** Prediction tools and Activity logs require a secure user account.
 
-## 📄 License
+## License
 
 This project is developed as part of a **Final Year Project (FYP)**. All rights reserved.
 

@@ -40,9 +40,8 @@
 ### Backend
 
 - **Framework:** Django (Python) & Django REST Framework (DRF)
-- **Database:** SQLite (Development) / PostgreSQL (Production ready)
-- **AI/ML:** Scikit learn (Random Forest/SVM models)
-- **Authentication:** JWT / Token based
+- **Database:** SQLite (Development)
+- **AI/ML:** Scikit learn
 
 ---
 

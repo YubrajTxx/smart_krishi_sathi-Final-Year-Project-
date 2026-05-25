@@ -4,7 +4,7 @@
 [![Django](https://img.shields.io/badge/Backend-Django-092E20?logo=django&logoColor=white)](https://www.djangoproject.com/)
 [![Bilingual](https://img.shields.io/badge/Language-English%20%2F%20Nepali-brightgreen)](#)
 
-**Smart Krishi Sathi** is a comprehensive full-stack web application designed to empower farmers with modern technology. It provides a suite of tools including AI-powered crop prediction, weather forecasting, educational resources, and activity tracking to improve agricultural productivity and sustainability.
+**Smart Krishi Sathi** is a comprehensive full stack web application designed to empower farmers with modern technology. It provides a suite of tools including AI powered crop prediction, weather forecasting, educational resources, and activity tracking to improve agricultural productivity and sustainability.
 
 ---
 
@@ -18,11 +18,11 @@
 
 ## Key Features
 
-- **AI Powered Crop Prediction:** Get data-driven crop recommendations based on soil (NPK) and environmental parameters.
+- **AI Powered Crop Prediction:** Get data driven crop recommendations based on soil (NPK) and environmental parameters.
 - **Activity Tracker:** Log daily farming activities, plan tasks, and monitor progress throughout the seasonal cycle.
 - **Agricultural Library:** Access a curated collection of articles, videos, and guides on modern farming practices.
-- **Live Weather Updates:** Real-time weather data and forecasts tailored to your location.
-- **Interactive Map:** GIS-based visualization for farming data and location-specific insights.
+- **Live Weather Updates:** Real time weather data and forecasts tailored to your location.
+- **Interactive Map:** GIS based visualization for farming data and location-specific insights.
 - **🇳🇵 Bilingual Support:** Fully accessible in both **English** and **Nepali**.
 
 ---
@@ -41,8 +41,8 @@
 
 - **Framework:** Django (Python) & Django REST Framework (DRF)
 - **Database:** SQLite (Development) / PostgreSQL (Production ready)
-- **AI/ML:** Scikit-learn (Random Forest/SVM models)
-- **Authentication:** JWT / Token-based
+- **AI/ML:** Scikit learn (Random Forest/SVM models)
+- **Authentication:** JWT / Token based
 
 ---
 
